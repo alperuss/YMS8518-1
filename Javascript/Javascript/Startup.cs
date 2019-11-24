@@ -53,7 +53,7 @@ namespace Javascript
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=Home}/{action=Calculator}/{id?}");
+                    template: "{controller=Home}/{action=Calculator2}/{id?}");
             });
         }
     }
