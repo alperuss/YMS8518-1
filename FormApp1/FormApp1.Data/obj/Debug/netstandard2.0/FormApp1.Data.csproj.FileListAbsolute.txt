@@ -1,0 +1,12 @@
+c:\Users\ali.isenkul\source\repos\FormApp1\FormApp1.Data\bin\Debug\netstandard2.0\FormApp1.Data.deps.json
+c:\Users\ali.isenkul\source\repos\FormApp1\FormApp1.Data\bin\Debug\netstandard2.0\FormApp1.Data.dll
+c:\Users\ali.isenkul\source\repos\FormApp1\FormApp1.Data\bin\Debug\netstandard2.0\FormApp1.Data.pdb
+c:\Users\ali.isenkul\source\repos\FormApp1\FormApp1.Data\obj\Debug\netstandard2.0\FormApp1.Data.csprojAssemblyReference.cache
+c:\Users\ali.isenkul\source\repos\FormApp1\FormApp1.Data\obj\Debug\netstandard2.0\FormApp1.Data.csproj.CoreCompileInputs.cache
+c:\Users\ali.isenkul\source\repos\FormApp1\FormApp1.Data\obj\Debug\netstandard2.0\FormApp1.Data.AssemblyInfoInputs.cache
+c:\Users\ali.isenkul\source\repos\FormApp1\FormApp1.Data\obj\Debug\netstandard2.0\FormApp1.Data.AssemblyInfo.cs
+c:\Users\ali.isenkul\source\repos\FormApp1\FormApp1.Data\obj\Debug\netstandard2.0\FormApp1.Data.dll
+c:\Users\ali.isenkul\source\repos\FormApp1\FormApp1.Data\obj\Debug\netstandard2.0\FormApp1.Data.pdb
+C:\Users\ali.isenkul\source\repos\FormApp1\FormApp1.Data\bin\Debug\netstandard2.0\System.ComponentModel.Annotations.dll
+C:\Users\ali.isenkul\source\repos\FormApp1\FormApp1.Data\bin\Debug\netstandard2.0\System.ComponentModel.Annotations.xml
+C:\Users\ali.isenkul\source\repos\FormApp1\FormApp1.Data\obj\Debug\netstandard2.0\FormApp1.Data.csproj.CopyComplete
