@@ -25,6 +25,10 @@ namespace GuestBook.Controllers
         }
         public IActionResult Manage()
         {
+            if (HttpContext.Session.GetInt32("userId") != null)
+            {
+                return RedirectToAction("AdminDashboard", "GuestBook");
+            }
             return View();
         }
         public IActionResult LoginAction([FromBody]GuestBookLoginDto guestBookLoginDto)
@@ -76,6 +80,12 @@ namespace GuestBook.Controllers
             _dataContext.SaveChanges();
 
             return new JsonResult("ok");
+        }
+        public IActionResult LogoutAction()
+        {
+            HttpContext.Session.Remove("userId");
+
+            return RedirectToAction("Manage", "GuestBook");
         }
     }
 }
