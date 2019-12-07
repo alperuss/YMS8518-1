@@ -53,3 +53,4 @@ C:\Users\ali.isenkul\Desktop\YMS5818\YMS8518\GuestBook\GuestBook\obj\Debug\netco
 C:\Users\ali.isenkul\Desktop\YMS5818\YMS8518\GuestBook\GuestBook\obj\Debug\netcoreapp2.1\GuestBook.dll
 C:\Users\ali.isenkul\Desktop\YMS5818\YMS8518\GuestBook\GuestBook\obj\Debug\netcoreapp2.1\GuestBook.pdb
 C:\Users\ali.isenkul\Desktop\YMS5818\YMS8518\GuestBook\GuestBook\obj\Debug\netcoreapp2.1\Razor\Views\GuestBook\Manage.g.cshtml.cs
+C:\Users\ali.isenkul\Desktop\YMS5818\YMS8518\GuestBook\GuestBook\obj\Debug\netcoreapp2.1\Razor\Views\GuestBook\AdminDashboard.g.cshtml.cs

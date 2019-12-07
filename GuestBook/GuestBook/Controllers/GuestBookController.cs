@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using GuestBook.Data.Context;
 using GuestBook.Data.Dto;
 using GuestBook.Data.Model;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace GuestBook.Controllers
@@ -32,12 +33,29 @@ namespace GuestBook.Controllers
             {
                 return BadRequest("Bizde yapardık zamanında");
             }
-            if(guestBookLoginDto.Username == "admin" && guestBookLoginDto.Password == "12345678")
+            User user = _dataContext.Users.SingleOrDefault(a => a.Username == guestBookLoginDto.Username && a.Password == guestBookLoginDto.Password);
+
+            if(user != null)
             {
-
+                HttpContext.Session.SetInt32("userId", user.Id);
+                return new JsonResult("OK");
             }
-
+            else
+            {
+                return Unauthorized();
+            }
             return new JsonResult("ok");
+        }
+        public IActionResult AdminDashboard()
+        {
+            if (HttpContext.Session.GetInt32("userId") != null)
+            {
+                return View();
+            }
+            else
+            {
+                return RedirectToAction("Manage", "GuestBook");
+            }
         }
         public IActionResult SendAction([FromBody]GuestBookSendActionDto guestBookSendActionDto)
         {

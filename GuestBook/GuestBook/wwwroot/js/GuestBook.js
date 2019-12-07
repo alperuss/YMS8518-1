@@ -98,9 +98,8 @@
                     });
                 },
                 Login_Callback: function (result) {
-                    $("#GuestBook-Manage-Sending").hide();
-                    $("#GuestBook-Manage-Sent").show();
-                    console.log(result);
+                    window.location.href = "/GuestBook/AdminDashboard";
+                    
                 },
                 Login_Callback_Error: function (result) {
                     alert("Kullanıcı adı veya şifre hatalı");
