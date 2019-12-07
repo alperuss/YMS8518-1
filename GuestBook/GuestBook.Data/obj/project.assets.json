@@ -3475,11 +3475,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ali.isenkul\\source\\repos\\GuestBook\\GuestBook.Data\\GuestBook.Data.csproj",
+      "projectUniqueName": "C:\\Users\\ali.isenkul\\Desktop\\YMS5818\\YMS8518\\GuestBook\\GuestBook.Data\\GuestBook.Data.csproj",
       "projectName": "GuestBook.Data",
-      "projectPath": "C:\\Users\\ali.isenkul\\source\\repos\\GuestBook\\GuestBook.Data\\GuestBook.Data.csproj",
+      "projectPath": "C:\\Users\\ali.isenkul\\Desktop\\YMS5818\\YMS8518\\GuestBook\\GuestBook.Data\\GuestBook.Data.csproj",
       "packagesPath": "C:\\Users\\ali.isenkul\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ali.isenkul\\source\\repos\\GuestBook\\GuestBook.Data\\obj\\",
+      "outputPath": "C:\\Users\\ali.isenkul\\Desktop\\YMS5818\\YMS8518\\GuestBook\\GuestBook.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
