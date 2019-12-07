@@ -1,0 +1,8 @@
+C:\Users\Arda\source\repos\HomeworkMVC.Data\bin\Debug\netcoreapp2.1\HomeworkMVC.Data.deps.json
+C:\Users\Arda\source\repos\HomeworkMVC.Data\bin\Debug\netcoreapp2.1\HomeworkMVC.Data.dll
+C:\Users\Arda\source\repos\HomeworkMVC.Data\bin\Debug\netcoreapp2.1\HomeworkMVC.Data.pdb
+C:\Users\Arda\source\repos\HomeworkMVC.Data\obj\Debug\netcoreapp2.1\HomeworkMVC.Data.AssemblyInfoInputs.cache
+C:\Users\Arda\source\repos\HomeworkMVC.Data\obj\Debug\netcoreapp2.1\HomeworkMVC.Data.AssemblyInfo.cs
+C:\Users\Arda\source\repos\HomeworkMVC.Data\obj\Debug\netcoreapp2.1\HomeworkMVC.Data.dll
+C:\Users\Arda\source\repos\HomeworkMVC.Data\obj\Debug\netcoreapp2.1\HomeworkMVC.Data.pdb
+C:\Users\Arda\source\repos\HomeworkMVC.Data\obj\Debug\netcoreapp2.1\HomeworkMVC.Data.csprojAssemblyReference.cache
