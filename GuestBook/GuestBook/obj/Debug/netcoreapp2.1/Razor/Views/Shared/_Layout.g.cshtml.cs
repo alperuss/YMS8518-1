@@ -50,12 +50,12 @@ using Microsoft.AspNetCore.Http;
             WriteLiteral("\r\n<!doctype html>\r\n<html>\r\n");
             EndContext();
             BeginContext(61, 249, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "71ada7dbbc30491b98ed866d2f3ad73e", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2e652e72653b490588b50b8de82d88c0", async() => {
                 BeginContext(67, 6, true);
                 WriteLiteral("\r\n    ");
                 EndContext();
                 BeginContext(73, 41, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ded5d6144b4645168147816d054168f1", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "84f2eb7c312340d78ceaf820cced084f", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -88,7 +88,7 @@ using Microsoft.AspNetCore.Http;
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(312, 525, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a24723ab6b864f8da5529128382b5478", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "60fa3af2173d45639cc25a4cdbeb1a9f", async() => {
                 BeginContext(318, 23, true);
                 WriteLiteral("\r\n    <div>\r\n        <a");
                 EndContext();

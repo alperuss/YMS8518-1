@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuestBook", "GuestBook\GuestBook.csproj", "{9D8B0F2C-FCF8-4FFB-BD29-7349B06A42F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GuestBook", "GuestBook\GuestBook.csproj", "{9D8B0F2C-FCF8-4FFB-BD29-7349B06A42F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuestBook.Data", "GuestBook.Data\GuestBook.Data.csproj", "{0BB07BC2-3868-4C4B-BA3B-15D00C71CABC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GuestBook.Data", "GuestBook.Data\GuestBook.Data.csproj", "{0BB07BC2-3868-4C4B-BA3B-15D00C71CABC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuestBook.Service", "GuestBook.Service\GuestBook.Service.csproj", "{11F0DDAB-99AA-426A-B73C-4D581AC45AAB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{0BB07BC2-3868-4C4B-BA3B-15D00C71CABC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0BB07BC2-3868-4C4B-BA3B-15D00C71CABC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0BB07BC2-3868-4C4B-BA3B-15D00C71CABC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11F0DDAB-99AA-426A-B73C-4D581AC45AAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11F0DDAB-99AA-426A-B73C-4D581AC45AAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11F0DDAB-99AA-426A-B73C-4D581AC45AAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11F0DDAB-99AA-426A-B73C-4D581AC45AAB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

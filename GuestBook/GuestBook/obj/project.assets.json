@@ -4630,6 +4630,19 @@
         "runtime": {
           "bin/placeholder/GuestBook.Data.dll": {}
         }
+      },
+      "GuestBook.Service/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "GuestBook.Data": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/GuestBook.Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GuestBook.Service.dll": {}
+        }
       }
     }
   },
@@ -12543,11 +12556,17 @@
       "type": "project",
       "path": "../GuestBook.Data/GuestBook.Data.csproj",
       "msbuildProject": "../GuestBook.Data/GuestBook.Data.csproj"
+    },
+    "GuestBook.Service/1.0.0": {
+      "type": "project",
+      "path": "../GuestBook.Service/GuestBook.Service.csproj",
+      "msbuildProject": "../GuestBook.Service/GuestBook.Service.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
       "GuestBook.Data >= 1.0.0",
+      "GuestBook.Service >= 1.0.0",
       "Microsoft.AspNetCore.App >= 2.1.1",
       "Microsoft.AspNetCore.Razor.Design >= 2.1.2",
       "Microsoft.NETCore.App >= 2.1.0",
@@ -12586,6 +12605,9 @@
           "projectReferences": {
             "C:\\Users\\ali.isenkul\\Desktop\\YMS5818\\YMS8518\\GuestBook\\GuestBook.Data\\GuestBook.Data.csproj": {
               "projectPath": "C:\\Users\\ali.isenkul\\Desktop\\YMS5818\\YMS8518\\GuestBook\\GuestBook.Data\\GuestBook.Data.csproj"
+            },
+            "C:\\Users\\ali.isenkul\\Desktop\\YMS5818\\YMS8518\\GuestBook\\GuestBook.Service\\GuestBook.Service.csproj": {
+              "projectPath": "C:\\Users\\ali.isenkul\\Desktop\\YMS5818\\YMS8518\\GuestBook\\GuestBook.Service\\GuestBook.Service.csproj"
             }
           }
         }

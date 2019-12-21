@@ -25,6 +25,7 @@
       "GuestBook/1.0.0": {
         "dependencies": {
           "GuestBook.Data": "1.0.0",
+          "GuestBook.Service": "1.0.0",
           "Microsoft.AspNetCore.App": "2.1.1",
           "Microsoft.AspNetCore.Razor.Design": "2.1.2",
           "Microsoft.NETCore.App": "2.1.0",
@@ -651,6 +652,17 @@
         },
         "compile": {
           "GuestBook.Data.dll": {}
+        }
+      },
+      "GuestBook.Service/1.0.0": {
+        "dependencies": {
+          "GuestBook.Data": "1.0.0"
+        },
+        "runtime": {
+          "GuestBook.Service.dll": {}
+        },
+        "compile": {
+          "GuestBook.Service.dll": {}
         }
       },
       "Microsoft.AspNet.WebApi.Client/5.2.6": {
@@ -3761,6 +3773,11 @@
       "hashPath": "system.linq.queryable.4.0.1.nupkg.sha512"
     },
     "GuestBook.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GuestBook.Service/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

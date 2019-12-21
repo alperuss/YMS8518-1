@@ -12,15 +12,18 @@ namespace GuestBook.Controllers
 {
     public class GuestBookController : Controller
     {
-        private readonly DataContext _dataContext;
+        private readonly Data.Interfaces.IGuestNoteRepository _guestNoteRepository;
+        private readonly Data.Interfaces.IUserRepository _userRepository;
 
-        public GuestBookController(DataContext dataContext)
+        
+        public GuestBookController(Data.Interfaces.IGuestNoteRepository guestNoteRepository,Data.Interfaces.IUserRepository userRepository)
         {
-            _dataContext = dataContext;
+            _guestNoteRepository = guestNoteRepository;
+            _userRepository = userRepository;
         }
         public IActionResult Index()
         {
-            List<GuestNote> guestNotes = _dataContext.GuestNotes.ToList();
+            List<GuestNote> guestNotes = _guestNoteRepository.List();
             return View(guestNotes);
         }
         public IActionResult Manage()
@@ -37,7 +40,7 @@ namespace GuestBook.Controllers
             {
                 return BadRequest("Bizde yapardık zamanında");
             }
-            User user = _dataContext.Users.SingleOrDefault(a => a.Username == guestBookLoginDto.Username && a.Password == guestBookLoginDto.Password);
+            User user = _userRepository.List().SingleOrDefault(a => a.Username == guestBookLoginDto.Username && a.Password == guestBookLoginDto.Password);
 
             if(user != null)
             {
@@ -75,9 +78,7 @@ namespace GuestBook.Controllers
                 Message = guestBookSendActionDto.Message,
                 CreateDate = DateTime.Now
             };
-
-            _dataContext.GuestNotes.Add(guestNote);
-            _dataContext.SaveChanges();
+            _guestNoteRepository.Insert(guestNote);
 
             return new JsonResult("ok");
         }
