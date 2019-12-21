@@ -8,28 +8,30 @@
     ".NETCoreApp,Version=v3.0": []
   },
   "packageFolders": {
-    "/Users/aarda/.nuget/packages/": {},
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\ali.isenkul\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/aarda/Projects/BubbleSort/BubbleSort/BubbleSort.csproj",
+      "projectUniqueName": "C:\\Users\\ali.isenkul\\Desktop\\YMS5818\\YMS8518\\BubbleSort\\BubbleSort\\BubbleSort.csproj",
       "projectName": "BubbleSort",
-      "projectPath": "/Users/aarda/Projects/BubbleSort/BubbleSort/BubbleSort.csproj",
-      "packagesPath": "/Users/aarda/.nuget/packages/",
-      "outputPath": "/Users/aarda/Projects/BubbleSort/BubbleSort/obj/",
+      "projectPath": "C:\\Users\\ali.isenkul\\Desktop\\YMS5818\\YMS8518\\BubbleSort\\BubbleSort\\BubbleSort.csproj",
+      "packagesPath": "C:\\Users\\ali.isenkul\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ali.isenkul\\Desktop\\YMS5818\\YMS8518\\BubbleSort\\BubbleSort\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/aarda/.config/NuGet/NuGet.Config"
+        "C:\\Users\\ali.isenkul\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -46,21 +48,10 @@
     "frameworks": {
       "netcoreapp3.0": {
         "imports": [
-          "net461",
-          "net462",
-          "net47",
-          "net471",
-          "net472",
-          "net48"
+          "net461"
         ],
         "assetTargetFallback": true,
-        "warn": true,
-        "frameworkReferences": {
-          "Microsoft.NETCore.App": {
-            "privateAssets": "all"
-          }
-        },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+        "warn": true
       }
     }
   }
