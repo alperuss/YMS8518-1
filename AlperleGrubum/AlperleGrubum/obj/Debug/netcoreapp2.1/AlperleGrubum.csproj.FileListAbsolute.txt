@@ -1,0 +1,14 @@
+C:\Users\ali.isenkul\source\repos\AlperleGrubum\AlperleGrubum\bin\Debug\netcoreapp2.1\AlperleGrubum.deps.json
+C:\Users\ali.isenkul\source\repos\AlperleGrubum\AlperleGrubum\bin\Debug\netcoreapp2.1\AlperleGrubum.runtimeconfig.json
+C:\Users\ali.isenkul\source\repos\AlperleGrubum\AlperleGrubum\bin\Debug\netcoreapp2.1\AlperleGrubum.runtimeconfig.dev.json
+C:\Users\ali.isenkul\source\repos\AlperleGrubum\AlperleGrubum\bin\Debug\netcoreapp2.1\AlperleGrubum.dll
+C:\Users\ali.isenkul\source\repos\AlperleGrubum\AlperleGrubum\bin\Debug\netcoreapp2.1\AlperleGrubum.pdb
+C:\Users\ali.isenkul\source\repos\AlperleGrubum\AlperleGrubum\obj\Debug\netcoreapp2.1\AlperleGrubum.csprojAssemblyReference.cache
+C:\Users\ali.isenkul\source\repos\AlperleGrubum\AlperleGrubum\obj\Debug\netcoreapp2.1\AlperleGrubum.csproj.CoreCompileInputs.cache
+C:\Users\ali.isenkul\source\repos\AlperleGrubum\AlperleGrubum\obj\Debug\netcoreapp2.1\AlperleGrubum.RazorAssemblyInfo.cache
+C:\Users\ali.isenkul\source\repos\AlperleGrubum\AlperleGrubum\obj\Debug\netcoreapp2.1\AlperleGrubum.RazorAssemblyInfo.cs
+C:\Users\ali.isenkul\source\repos\AlperleGrubum\AlperleGrubum\obj\Debug\netcoreapp2.1\AlperleGrubum.AssemblyInfoInputs.cache
+C:\Users\ali.isenkul\source\repos\AlperleGrubum\AlperleGrubum\obj\Debug\netcoreapp2.1\AlperleGrubum.AssemblyInfo.cs
+C:\Users\ali.isenkul\source\repos\AlperleGrubum\AlperleGrubum\obj\Debug\netcoreapp2.1\AlperleGrubum.RazorTargetAssemblyInfo.cache
+C:\Users\ali.isenkul\source\repos\AlperleGrubum\AlperleGrubum\obj\Debug\netcoreapp2.1\AlperleGrubum.dll
+C:\Users\ali.isenkul\source\repos\AlperleGrubum\AlperleGrubum\obj\Debug\netcoreapp2.1\AlperleGrubum.pdb
