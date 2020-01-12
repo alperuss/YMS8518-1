@@ -9,7 +9,7 @@ namespace SampiyonTakim.Models
     public class CustomerDemographic
     {
         [Required, MaxLength(10)]
-        public string CıstomerTypeId { get; set; }
+        public string CustomerTypeId { get; set; }
         
         public string CustomerDesc { get; set; }
 
